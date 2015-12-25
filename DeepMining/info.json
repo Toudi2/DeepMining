@@ -1,0 +1,10 @@
+{
+	"name" : "DeepMining",
+	"author" : "Toudi",
+	"version" : "1.0.0",
+	"title" : "DeepMining",
+	"homepage" : "https://github.com/Toudi2/DeepMining",
+	"description" : "Endless miners creating resources using explosives and concrete",
+	"contact" : "Found a bug? Report it at https://github.com/Toudi2/DeepMining/issues",
+	"dependencies": ["base >= 0.12.20"]
+}
