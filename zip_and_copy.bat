@@ -1,3 +1,3 @@
 del *.zip
-7za a -tzip DeepMining_1.0.0.zip DeepMining
-xcopy DeepMining_1.0.0.zip ..\Factorio_0.12.20\mods\ /Y
+call 7za a -tzip DeepMining_0.8.0.zip DeepMining
+call xcopy DeepMining_0.8.0.zip ..\Factorio_0.12.20\mods\ /Y
