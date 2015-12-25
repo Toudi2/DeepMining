@@ -1,5 +1,5 @@
 require "defines"
-
+--[[
 function dbg_reset_recipes()
 	-- DEBUG
 	print("debug: resetting recipes")
@@ -13,3 +13,4 @@ end
 script.on_event(defines.events.on_built_entity, function(index)
 	dbg_reset_recipes()
 end)
+--]]

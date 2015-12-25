@@ -129,7 +129,7 @@ data:extend(
     icon = "__DeepMining__/graphics/icons/deep_miner_mk2.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 1, result = "deep_miner_mk2"},
-    max_heealth = 500,
+    max_health = 500,
     corpse = "big-remnants",
     dying_explosion = "medium-explosion",
     resistances =
