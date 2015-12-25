@@ -1,5 +1,5 @@
 # DeepMining
-DeepMining a mod for Factorio.
+DeepMining a mod for Factorio [http://www.factorio.com/]
 
 ### Long Description
 This mods adds mid/late game infinite resource mine that generates small amounts of random ores (iron, copper, coal) and stone using concrete and explosives.
