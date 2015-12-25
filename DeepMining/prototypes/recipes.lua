@@ -9,7 +9,7 @@ data:extend(
     type = "recipe",
     name = "deep_miner_mk1",
 	subgroup = "deep_miner_group_subgroup",
-    enabled = true,
+    enabled = false,
     ingredients =
     {
       {"basic-mining-drill", 4},
@@ -24,10 +24,10 @@ data:extend(
     type = "recipe",
     name = "deep_miner_mk2",
 	subgroup = "deep_miner_group_subgroup",
-    enabled = true,
+    enabled = false,
     ingredients =
     {
-      {"deep_miner_mk1", 2},
+      {"deep_miner_mk1", 1},
       {"basic-mining-drill", 2},
 	  {"advanced-circuit", 30},
       {"fast-transport-belt", 40}
@@ -39,10 +39,10 @@ data:extend(
     type = "recipe",
     name = "deep_miner_mk3",
 	subgroup = "deep_miner_group_subgroup",
-    enabled = true,
+    enabled = false,
     ingredients =
     {
-      {"deep_miner_mk2", 2},
+      {"deep_miner_mk2", 1},
       {"basic-mining-drill", 2},
 	  {"processing-unit", 15},
       {"express-transport-belt", 30}
@@ -58,7 +58,7 @@ data:extend(
 	category = "deep_miner_crafting",
     energy_required = 40,
 	subgroup = "deep_miner_group_subgroup",
-	enabled = true,
+	enabled = false,
     ingredients =
     {
 	  {type="item", name="concrete", amount=8},
@@ -67,9 +67,9 @@ data:extend(
     results = 
     {
       {type="item", name="stone", amount_min=2, amount_max=4, probability=1.0},
-      {type="item", name="iron-ore", amount_min=1, amount_max=2, probability=0.2},
-      {type="item", name="copper-ore", amount_min=1, amount_max=2, probability=0.2},
-	  {type="item", name="coal", amount_min=1, amount_max=2, probability=0.2},
+      {type="item", name="iron-ore", amount_min=1, amount_max=3, probability=0.25},
+      {type="item", name="copper-ore", amount_min=1, amount_max=3, probability=0.25},
+	  {type="item", name="coal", amount_min=1, amount_max=3, probability=0.25},
     }
   },
   
@@ -80,7 +80,7 @@ data:extend(
 	category = "deep_miner_crafting",
     energy_required = 40,
 	subgroup = "deep_miner_group_subgroup",
-	enabled = true,
+	enabled = false,
     ingredients =
     {
 	  {type="item", name="concrete", amount=12},
@@ -89,9 +89,9 @@ data:extend(
     results = 
     {
       {type="item", name="stone", amount_min=3, amount_max=8, probability=1.0},
-      {type="item", name="iron-ore", amount_min=2, amount_max=5, probability=0.3},
-      {type="item", name="copper-ore", amount_min=2, amount_max=5, probability=0.3},
-	  {type="item", name="coal", amount_min=2, amount_max=5, probability=0.3},
+      {type="item", name="iron-ore", amount_min=2, amount_max=5, probability=0.32},
+      {type="item", name="copper-ore", amount_min=2, amount_max=5, probability=0.32},
+	  {type="item", name="coal", amount_min=2, amount_max=5, probability=0.32},
     }
   }
 })
