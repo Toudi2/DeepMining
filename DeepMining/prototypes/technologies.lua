@@ -43,6 +43,7 @@ data:extend(
       ingredients = {{"science-pack-1", 3}, {"science-pack-2", 3}, {"science-pack-3", 2}, {"alien-science-pack", 1}},
       time = 40
     },
+	upgrade = true,
     order = "a-b-a"
   },
   
@@ -64,6 +65,7 @@ data:extend(
       ingredients = {{"science-pack-1", 4}, {"science-pack-2", 4}, {"science-pack-3", 3}, {"alien-science-pack", 2}},
       time = 50
     },
+	upgrade = true,
     order = "a-b-a"
   },
   
@@ -85,6 +87,7 @@ data:extend(
       ingredients = {{"science-pack-1", 2}, {"science-pack-2", 2}, {"science-pack-3", 2}},
       time = 30
     },
+	upgrade = true,
     order = "a-b-a"
   },
 })
