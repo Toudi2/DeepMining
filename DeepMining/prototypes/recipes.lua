@@ -61,15 +61,15 @@ data:extend(
 	enabled = false,
     ingredients =
     {
-	  {type="item", name="concrete", amount=8},
+	  {type="item", name="concrete", amount=5},
 	  {type="item", name="explosives", amount=1}
     },
     results = 
     {
       {type="item", name="stone", amount_min=2, amount_max=4, probability=1.0},
-      {type="item", name="iron-ore", amount_min=1, amount_max=4, probability=0.33},
-      {type="item", name="copper-ore", amount_min=1, amount_max=4, probability=0.33},
-	  {type="item", name="coal", amount_min=1, amount_max=4, probability=0.33},
+      {type="item", name="iron-ore", amount_min=2, amount_max=4, probability=0.4},
+      {type="item", name="copper-ore", amount_min=2, amount_max=4, probability=0.4},
+	  {type="item", name="coal", amount_min=2, amount_max=4, probability=0.4},
     }
   },
   
@@ -83,15 +83,15 @@ data:extend(
 	enabled = false,
     ingredients =
     {
-	  {type="item", name="concrete", amount=12},
+	  {type="item", name="concrete", amount=8},
 	  {type="item", name="explosives", amount=3}
     },
     results = 
     {
       {type="item", name="stone", amount_min=3, amount_max=8, probability=1.0},
-      {type="item", name="iron-ore", amount_min=2, amount_max=6, probability=0.4},
-      {type="item", name="copper-ore", amount_min=2, amount_max=6, probability=0.4},
-	  {type="item", name="coal", amount_min=2, amount_max=6, probability=0.4},
+      {type="item", name="iron-ore", amount_min=3, amount_max=8, probability=0.5},
+      {type="item", name="copper-ore", amount_min=3, amount_max=8, probability=0.5},
+	  {type="item", name="coal", amount_min=3, amount_max=8, probability=0.5},
     }
   }
 })
