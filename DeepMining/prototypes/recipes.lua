@@ -67,9 +67,9 @@ data:extend(
     results = 
     {
       {type="item", name="stone", amount_min=2, amount_max=4, probability=1.0},
-      {type="item", name="iron-ore", amount_min=1, amount_max=3, probability=0.25},
-      {type="item", name="copper-ore", amount_min=1, amount_max=3, probability=0.25},
-	  {type="item", name="coal", amount_min=1, amount_max=3, probability=0.25},
+      {type="item", name="iron-ore", amount_min=1, amount_max=4, probability=0.33},
+      {type="item", name="copper-ore", amount_min=1, amount_max=4, probability=0.33},
+	  {type="item", name="coal", amount_min=1, amount_max=4, probability=0.33},
     }
   },
   
@@ -89,9 +89,9 @@ data:extend(
     results = 
     {
       {type="item", name="stone", amount_min=3, amount_max=8, probability=1.0},
-      {type="item", name="iron-ore", amount_min=2, amount_max=5, probability=0.32},
-      {type="item", name="copper-ore", amount_min=2, amount_max=5, probability=0.32},
-	  {type="item", name="coal", amount_min=2, amount_max=5, probability=0.32},
+      {type="item", name="iron-ore", amount_min=2, amount_max=6, probability=0.4},
+      {type="item", name="copper-ore", amount_min=2, amount_max=6, probability=0.4},
+	  {type="item", name="coal", amount_min=2, amount_max=6, probability=0.4},
     }
   }
 })

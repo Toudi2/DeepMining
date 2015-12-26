@@ -7,6 +7,7 @@ data:extend(
 	inventory_order = "z-1-deep_miner_group",
     icon = "__DeepMining__/graphics/icons/deep_miner_tech.png",
   },
+  
   {
     type = "item-subgroup",
     name = "deep_miner_group_subgroup",
@@ -20,6 +21,7 @@ data:extend(
     icon = "__DeepMining__/graphics/icons/deep_miner_mk1.png",
     flags = {"goes-to-quickbar"},
     group = "deep_mining",
+	subgroup = "deep_miner_group_subgroup",
     order = "b[deep_miner_mk1]",
     place_result = "deep_miner_mk1",
     stack_size = 10
@@ -31,6 +33,7 @@ data:extend(
     icon = "__DeepMining__/graphics/icons/deep_miner_mk2.png",
     flags = {"goes-to-quickbar"},
     group = "deep_mining",
+	subgroup = "deep_miner_group_subgroup",
     order = "b[deep_miner_mk2]",
     place_result = "deep_miner_mk2",
     stack_size = 10
@@ -42,6 +45,7 @@ data:extend(
     icon = "__DeepMining__/graphics/icons/deep_miner_mk3.png",
     flags = {"goes-to-quickbar"},
     group = "deep_mining",
+	subgroup = "deep_miner_group_subgroup",
     order = "b[deep_miner_mk3]",
     place_result = "deep_miner_mk3",
     stack_size = 10
